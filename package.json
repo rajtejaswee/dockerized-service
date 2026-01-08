@@ -1,0 +1,25 @@
+{
+  "name": "dockerized-service",
+  "version": "1.0.0",
+   "description": "Dockerized Node.js service with CI/CD",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajtejaswee/dockerized-service.git"
+  },
+ "keywords": ["docker", "nodejs", "devops"],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajtejaswee/dockerized-service/issues"
+  },
+  "homepage": "https://github.com/rajtejaswee/dockerized-service#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  }
+}
